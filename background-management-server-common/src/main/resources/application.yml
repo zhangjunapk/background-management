@@ -1,0 +1,16 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka/
+
+server:
+  port: 8764
+
+spring:
+  application:
+    name: service-common-management
+
+  datasource:
+    url:  jdbc:mysql://localhost:3306/db_management?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
+    username:  root
+    password:  zhangjun249
